@@ -1,0 +1,45 @@
+.about{
+    margin-top: 60px;
+}
+
+.aboutTitles{
+     padding-top: 70px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Lora',serif;
+    color: #2f2d2d;
+}
+
+.aboutTitleSm{
+    position: absolute;
+    top: 18%;
+    font-size: 30px;
+}
+
+.aboutTitleLg{
+    position: absolute;
+    top: 10%;
+    font-size: 100px;
+}
+.desc{
+    display:flex;
+    justify-content: center;
+    align-self: center;
+    margin-top: 50px;
+    font-weight: bold;
+    text-align:center ;
+    font-size: 20px;
+    font-style: italic;
+}
+.aboutImg{
+    display:flex;
+    justify-content: center;
+    align-self: center;
+    width: 60%;
+    height: 350px;
+    margin-top: 50px;
+    margin-left: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+}
